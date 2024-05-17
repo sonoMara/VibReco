@@ -1,0 +1,10 @@
+1 - filtrare i 3 segnali dell'accelerometro
+  1a - guardare filtri proposti dai prof
+  1b - filtro molto spartano if(val<x) val=0
+2 - misurare frequenza
+  1a - isolare i massimi e i minimi e contare quelli
+  1b - con una fft (fast fourier transform) vedere se la componente sopra ai 7Hz è significativa
+3 - controllare il funzionamento anche in posizioni strane e con vibrazioni particolari
+4 - snellire codice e trasformarlo in libreria / funzione
+ 4a - utilizzare define per renderlo modulare
+ 4b - utilizzare variabili più piccole possibili
